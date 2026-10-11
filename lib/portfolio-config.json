@@ -1,0 +1,296 @@
+{
+  "profile": {
+    "name": "Your Name",
+    "role": "Data Analyst",
+    "tagline": "Your tagline goes here — a short sentence about what you do and what drives you.",
+    "email": "your.email@example.com",
+    "phone": "",
+    "location": "",
+    "linkedin": "https://www.linkedin.com/in/yourprofile",
+    "github": "https://github.com/yourusername",
+    "photoUrl": "/placeholder.svg",
+    "resumeUrl": "/resume-placeholder.pdf",
+    "openToWork": true,
+    "availability": "Available for contract & full-time roles"
+  },
+  "about": {
+    "bio": "Write a short paragraph about your background, experience, and what makes you a strong data professional.",
+    "focus": "Data Analytics & Business Intelligence",
+    "coreStack": "SQL · Power BI · Python"
+  },
+  "technicalSkills": [
+    { "name": "SQL", "description": "Data cleaning, joins, CTEs, query optimisation", "logo": "/logo-sql.png" },
+    { "name": "Power BI", "description": "DAX, interactive dashboards, data modelling", "logo": "/logo-powerbi.png" },
+    { "name": "Tableau", "description": "Advanced visualisations, calculated fields, parameters", "logo": "/logo-tableau.png" },
+    { "name": "Python", "description": "Pandas, NumPy, Matplotlib, data automation", "logo": "/logo-python.png" },
+    { "name": "Excel", "description": "Pivot tables, Power Query, formulas, data validation", "logo": "/logo-excel.png" },
+    { "name": "Claude Code", "description": "AI-assisted development, prompt engineering, automation workflows", "logo": "/logo-claude.png" },
+    { "name": "Git", "description": "Version control, branching strategies, collaborative workflows", "logo": "/logo-git.png" },
+    { "name": "Power Automate", "description": "Workflow automation, scheduled flows, data integration", "logo": "/logo-power-automate.png" },
+    { "name": "Copilot", "description": "AI-powered productivity, code assistance, intelligent insights", "logo": "/logo-copilot.png" },
+    { "name": "Redshift", "description": "Cloud data warehousing, large-scale analytics, SQL querying", "logo": "/logo-redshift.png" },
+    { "name": "Salesforce", "description": "CRM data analysis, reporting, pipeline and sales insights", "logo": "/logo-salesforce.png" },
+    { "name": "Jira", "description": "Project tracking, agile workflows, sprint reporting", "logo": "/logo-jira.png" }
+  ],
+  "workExperience": [
+    {
+      "title": "Senior Data Analyst",
+      "company": "Apex Analytics Group",
+      "location": "Melbourne, Australia",
+      "duration": "Jan 2023 — Present",
+      "type": "Full-time",
+      "responsibilities": [
+        "Lead the design and delivery of enterprise-wide Power BI dashboards used by 200+ stakeholders across operations, finance, and sales.",
+        "Write and optimise complex SQL queries against large-scale Redshift and SQL Server databases to support reporting and ad-hoc analysis.",
+        "Automate recurring reporting workflows using Power Automate and Python, reducing manual effort by over 60%."
+      ]
+    },
+    {
+      "title": "Senior Data Quality Analyst",
+      "company": "Meridian Financial Services",
+      "location": "Melbourne, Australia",
+      "duration": "Mar 2021 — Dec 2022",
+      "type": "Full-time",
+      "responsibilities": [
+        "Owned the data quality framework across five core business systems, defining standards, monitoring rules, and remediation workflows.",
+        "Built automated data validation pipelines in Python and SQL to detect anomalies, duplicates, and missing records before they reached reporting layers.",
+        "Produced executive-level data quality scorecards in Power BI, providing visibility into health metrics across the organisation."
+      ]
+    },
+    {
+      "title": "Data Analyst",
+      "company": "CoreTech Solutions",
+      "location": "Melbourne, Australia",
+      "duration": "Jul 2019 — Feb 2021",
+      "type": "Full-time",
+      "responsibilities": [
+        "Designed and maintained Tableau and Excel dashboards to support weekly performance reporting for the operations and customer success teams.",
+        "Wrote SQL queries to extract, clean, and transform data from relational databases for use in business reporting and analysis.",
+        "Worked closely with business stakeholders to gather requirements and deliver ad-hoc analysis that informed key business decisions."
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Certification Name",
+      "organisation": "Issuing Organisation",
+      "date": "2024",
+      "credentialUrl": "#"
+    }
+  ],
+  "projects": [
+    {
+      "slug": "my-first-project",
+      "title": "Contact Center KPI & Performance Project",
+      "company": "",
+      "industry": "Energy Retailer & Telecommunications",
+      "role": "Data Analyst",
+      "duration": "4 weeks",
+      "summary": "This project simulates a real-world energy company contact center, where we build an interactive KPI dashboard to track operational performance, efficiency, customer service, and key business metrics.",
+      "tools": ["SQL", "Power BI"],
+      "preview": "/project-contact-center-kpi.png",
+      "challenge": [
+        "This project simulates a real-world contact center for Energy Plus, a fictional electricity provider. The business relied on manual spreadsheets and inconsistent reporting, making it difficult for leadership to monitor operational performance, sales activity, service levels, and agent productivity.",
+        "To solve this, the objective was to design and build an interactive KPI dashboard that provides clear visibility into contact center performance, supports data-driven decision-making, and helps identify opportunities to improve efficiency, customer service, and sales outcomes."
+      ],
+      "requirements": ["The project was required to:"],
+      "kpiTargets": [
+        "Service Level: > 75%",
+        "Answer Rate: > 95%",
+        "Abandon Rate: < 5%",
+        "Average Handle Time (AHT): < 480 seconds",
+        "Monthly Sales Target: 1,800",
+        "Agent Sales Target: 100+ sales per month",
+        "Sales Conversion Rate: 10%"
+      ],
+      "whatIBuilt": [
+        "I wrote a SQL script to join three tables (call stats, connection stats, and agent info) into a single unified dataset. This gave Power BI one clean source to report from.",
+        "A key requirement was accurately tracking agents who moved between teams over time. I solved this using effective date logic in the SQL join, ensuring each agent's metrics were always attributed to the correct team for the correct time period — preserving historical accuracy even after team changes."
+      ],
+      "dashboardTitle": "Power BI Dashboard",
+      "dashboardDescription": "The Energy Plus Contact Centre Dashboard is shown below. This Power BI solution was built from the business requirements and SQL data model presented above. Below is a summary of each dashboard page, including its purpose and the key benefits it provides to business users.",
+      "dashboardSlides": [
+        {
+          "title": "Summary & Glossary",
+          "description": [
+            "This page serves as a reference point for stakeholders, providing essential context and definitions for the dashboard. It includes key metadata such as the report creation date, last review date, business owner, and report owner. A brief summary explains the purpose and scope of the report, helping users quickly understand what it covers.",
+            "Key Performance Indicators (KPIs) are also listed on this page, drawn directly from the project requirements, to give managers a clear understanding of the metrics being tracked. Additionally, a glossary has been included to define key terms and metrics, supporting consistent interpretation across all users."
+          ],
+          "image": "/dashboard-summary-page.png"
+        },
+        {
+          "title": "Contact Centre Operations",
+          "description": [
+            "This page provides senior managers and executives with a high-level view of contact centre performance throughout the year, making it easy to assess whether key monthly targets are being achieved.",
+            "The primary focus is the Connection KPI (target: 1,800 connections per month) and Service Level (target: 75%). Colour-coded KPIs provide instant insight, with green indicating targets have been met and red highlighting areas requiring attention."
+          ],
+          "bullets": [
+            "Executive Summary: A single, high-level view of contact centre performance.",
+            "Instant KPI Monitoring: Colour-coded indicators quickly show whether monthly targets have been met.",
+            "Better Decision Making: Clear performance insights support operational and strategic decisions.",
+            "Trend Analysis: Track performance over time to identify trends, seasonal patterns, and potential issues early."
+          ],
+          "image": "/dashboard-contact-centre.png"
+        },
+        {
+          "title": "Agent Operations",
+          "description": [
+            "This page is designed for team managers, providing detailed visibility into individual agent performance throughout the year. It tracks key metrics, including whether agents are achieving their monthly target of 100 connections and maintaining a conversion rate above 10%.",
+            "The dashboard helps managers recognise top performers, identify agents who need support, and deliver targeted coaching using detailed performance metrics."
+          ],
+          "bullets": [
+            "Performance Tracking: Quickly identify which agents are meeting or missing their KPIs.",
+            "Targeted Coaching: Pinpoint areas where individual agents need improvement.",
+            "Recognition: Easily identify high-performing agents for reward and recognition."
+          ],
+          "image": "/dashboard-agent-ops.png"
+        },
+        {
+          "title": "Team Operations",
+          "description": "This page gives team leaders a complete view of team performance, allowing them to quickly identify top performers, monitor overall progress, and assess whether team targets are being met—all from a single dashboard.",
+          "bullets": [
+            "Team Overview: View the entire team's performance in one place.",
+            "Target Tracking: Monitor progress against team KPIs.",
+            "Performance Comparison: Compare agents to identify gaps and coaching opportunities.",
+            "Faster Decision Making: Save time with a single, consolidated view of team performance."
+          ],
+          "image": "/dashboard-team-ops.png"
+        },
+        {
+          "title": "Cross-Team Performance",
+          "description": "This page provides senior managers with a comparison of team performance across the contact centre. It highlights key metrics such as connections, conversion rates, and service levels, making it easy to identify top-performing teams and ensure all teams are meeting performance expectations.",
+          "bullets": [
+            "Team Comparison: View all teams side by side in one dashboard.",
+            "Centre-Wide Visibility: Monitor overall contact centre performance at a glance.",
+            "Performance Monitoring: Ensure all teams are meeting key KPIs.",
+            "Better Decision Making: Use insights to guide coaching, resource allocation, and process improvements."
+          ],
+          "image": "/dashboard-cross-team.png"
+        }
+      ],
+      "buildImage": "/sql-join-diagram.png",
+      "sqlSnippet": "SELECT \nC.date,\nC.offer,\nC.answered,\nC.agent_id,\nC.total_talk,\nC.total_acw,\nC.total_hold,\nC.asa,\nC.abandon,\nC.sla_met,\nC.sla_over,\nS.connection,\nA.agent_name,\nA.team,\nA.effective_start_date,\nA.effective_end_date\nFROM call_stats C\nINNER JOIN connection_stats S ON S.agent_id = C.agent_id AND C.date = S.date\nINNER JOIN agent_info A ON A.agent_id = C.agent_id\nAND C.date >= effective_start_date AND C.date <= A.effective_end_date -- Enables Power BI to report each agent's metrics to the correct team",
+      "outcome": [],
+      "outcomeImage": "/project-outcome.png",
+      "keyDeliverables": [
+        "Create a centralized Power BI dashboard for monitoring contact center performance.",
+        "Replace manual spreadsheets with automated, self-service reporting.",
+        "Track performance by team, agent, and date.",
+        "Monitor key operational KPIs, including Service Level, Answer Rate, Abandon Rate, Average Handle Time (AHT), and Call Volumes.",
+        "Measure sales performance, including total sales, conversion rates, and top-performing agents.",
+        "Accurately report performance for agents who move between teams.",
+        "Support leadership with data-driven decision-making and compliance monitoring."
+      ],
+      "impact": [],
+      "githubUrl": "https://github.com/andoproductionsdata/contact-center-kpi-project",
+      "liveUrl": null,
+      "gallery": []
+    },
+    {
+      "slug": "insurance-claims-dashboard",
+      "title": "Insurance Claims Performance Dashboard",
+      "company": "",
+      "industry": "Insurance",
+      "role": "Data Analyst",
+      "duration": "",
+      "buildImage": "/insurance-build-diagram.png",
+      "dashboardTitle": "Power BI Dashboard",
+      "dashboardDescription": "The Insurance Claims Performance Dashboard is shown below. This interactive Power BI solution was developed using the SQL reporting dataset and business requirements outlined above. The following sections provide an overview of each dashboard page, highlighting its purpose and how it helps stakeholders monitor claims performance and key business KPIs.",
+      "summary": "This project simulates a real-world insurance claims environment for Insurix, a fictional insurance company, building an interactive KPI dashboard to monitor claim processing performance, team productivity, and operational efficiency.",
+      "tools": ["SQL", "Power BI"],
+      "preview": "/project-insurance-claims.png",
+      "challenge": [
+        "This project simulates a real-world insurance claims environment for Insurix, a fictional insurance company entering a highly competitive market. Following concerns raised by the National Consumer Protection Association (NCPA) regarding claim processing times, the business needed a reliable reporting solution to monitor operational performance and ensure claims were being processed within agreed service standards.",
+        "To address this challenge, the objective was to design and build an interactive KPI dashboard that provides clear visibility into open claims, processing times, and team productivity. Using SQL for data cleaning and transformation and Power BI for interactive reporting, the solution enables stakeholders to track key performance indicators, identify processing bottlenecks, and make data-driven decisions to improve operational efficiency and customer outcomes."
+      ],
+      "requirements": ["The project was required to:"],
+      "kpiTargets": [],
+      "whatIBuilt": [
+        "Wrote a SQL script to clean, transform, and consolidate insurance claims data into a single reporting dataset, which was then used in Power BI to build the dashboard."
+      ],
+      "sqlSnippet": "DECLARE @report_date DATE = '2025-01-01';\n\nSELECT\nclaim_id,\naccount_number,\nclaim_status,\ndate, -- created date\npartition_date, -- action date\nowner,\nclaim_type,\nCASE WHEN claim_status = 'A' THEN 'Approved'\n     WHEN claim_status = 'O' THEN 'Open'\n     WHEN claim_status = 'C' THEN 'Cancelled'\n     WHEN claim_status = 'D' THEN 'Declined'\nEND AS claim_status_true,\nDATEDIFF(DAY, date, @report_date) AS claim_age,\nCASE WHEN DATEDIFF(DAY, date, @report_date) < 30 THEN 'a. 1 - 29 Days'\n     WHEN DATEDIFF(DAY, date, @report_date) BETWEEN 30 AND 70 THEN 'b. 30 - 70 Days'\n     WHEN DATEDIFF(DAY, date, @report_date) BETWEEN 71 AND 100 THEN 'c. 71 - 100 Days'\n     WHEN DATEDIFF(DAY, date, @report_date) > 100 THEN 'd. 100 Days +'\nEND AS age_category,\nCASE WHEN DATEDIFF(DAY, date, partition_date) < 30 THEN 'a. 1 - 29 Days'\n     WHEN DATEDIFF(DAY, date, partition_date) BETWEEN 30 AND 70 THEN 'b. 30 - 70 Days'\n     WHEN DATEDIFF(DAY, date, partition_date) BETWEEN 71 AND 100 THEN 'c. 71 - 100 Days'\n     WHEN DATEDIFF(DAY, date, partition_date) > 100 THEN 'd. 100 Days +'\nEND AS completed_age_category,\nDATEDIFF(DAY, @report_date, DATEADD(DAY, 100, date)) AS days_until_due_date\nFROM claim",
+      "sqlDescription": "Developed a SQL script to transform raw insurance claims data by converting status codes into readable values, calculating claim age and due dates, categorizing claims by age, and preparing a clean, report-ready dataset for Power BI.",
+      "outcome": [],
+      "outcomeImage": "/insurance-outcome.png",
+      "keyDeliverables": [
+        "Track the number of open claims older than 100 days",
+        "Display a KPI indicator when there are more than 15 open claims over 100 days old to flag potential backlog issues",
+        "Monitor the number of claims closed each month, including trends over time",
+        "Monitor the number of new claims lodged each month",
+        "Provide reporting on claim types to identify distribution and patterns",
+        "Generate agent performance reports to support productivity and coaching",
+        "Include an open claims tracker to support work assignment"
+      ],
+      "dashboardSlides": [
+        {
+          "title": "Claims Overview",
+          "description": [
+            "This page provides managers and executives with a high-level view of insurance claims performance, making it easy to monitor claim volumes, processing times, and whether key operational targets are being achieved.",
+            "The primary focus is the Over 100 Days KPI (target: fewer than 15 open claims over 100 days old), with colour-coded KPIs providing instant insight into overall claims performance and areas requiring attention."
+          ],
+          "bullets": [
+            "Executive Summary: A single, high-level view of open claims, closed claims, processing times, and key operational KPIs.",
+            "KPI Monitoring: Instantly identify whether the business is meeting its target of keeping claims over 100 days below the agreed threshold.",
+            "Claims Distribution: Visualize claim volumes and age categories to better understand the current claims portfolio.",
+            "Trend Analysis: Track month-over-month claim activity and processing performance to identify trends and emerging issues early."
+          ],
+          "image": "/insurance-page-1.jpg"
+        },
+        {
+          "title": "Agent Claims Performance",
+          "description": [
+            "This page provides managers with a detailed view of individual agent performance, making it easy to monitor workload, track productivity, and identify claims that require immediate attention.",
+            "The primary focus is agent productivity, claim completion, and outstanding claims. Managers can quickly identify top-performing agents, monitor open workloads, and prioritize overdue claims through interactive visuals and colour-coded reporting."
+          ],
+          "bullets": [
+            "Agent Performance: Compare the number of closed claims by agent and claim type to measure productivity.",
+            "Open Claims Monitoring: Identify agents with the highest number of open claims, with claims over 100 days highlighted for immediate action.",
+            "Detailed Claims Analysis: Review individual claim outcomes to better understand agent performance and workload.",
+            "Interactive Filtering: Dynamically switch between claim type and age category to analyse claims from different perspectives."
+          ],
+          "image": "/insurance-page-2.jpg"
+        },
+        {
+          "title": "Open Claims Management",
+          "description": [
+            "This page provides managers and claims teams with a dedicated view of all open claims, making it easy to monitor workloads, prioritize overdue cases, and ensure claims are progressing within service targets.",
+            "The primary focus is open claim management, allowing users to quickly identify aging claims, track upcoming due dates, and monitor workloads across the team to support timely claim resolution."
+          ],
+          "bullets": [
+            "Open Claims Overview: View all open claims by age category to understand workload distribution at a glance.",
+            "Priority Monitoring: Quickly identify overdue and high-risk claims so they can be actioned before service targets are missed.",
+            "Workload Management: Track assigned claims and due dates to help balance workloads across the team.",
+            "Improved Visibility: Provides a centralized view of outstanding claims, helping managers prioritize work and improve processing efficiency."
+          ],
+          "image": "/insurance-page-3.jpg"
+        },
+        {
+          "title": "Closed Claims Performance",
+          "description": [
+            "This page provides managers and executives with a detailed view of closed claims, making it easy to monitor claim completion trends, measure productivity, and evaluate how efficiently claims are being resolved.",
+            "The primary focus is claim closure performance, allowing users to compare monthly results, identify changes in productivity, and understand how quickly different claim types are being processed."
+          ],
+          "bullets": [
+            "Performance Monitoring: Track the number of claims closed each month to measure operational performance over time.",
+            "Month-on-Month Analysis: Compare current results against the previous month to quickly identify improvements or declines in claim closures.",
+            "Claims Resolution Insights: Analyze closed claims by claim type and age category to understand processing efficiency."
+          ],
+          "image": "/insurance-page-4.jpg"
+        },
+        {
+          "title": "Page 5 — Raw Data",
+          "description": ["This page was created to give stakeholders direct access to the underlying data, without the visualizations or formatting used in other pages."],
+          "bullets": [
+            "Full Data Table: Displays all claim records in a simple, unfiltered table for easy exploration.",
+            "Download / Export Option: Allows stakeholders to extract the data for further analysis outside of Power BI."
+          ],
+          "image": "/insurance-page-5.jpg"
+        }
+      ],
+      "impact": [],
+      "githubUrl": "https://github.com/andoproductionsdata/insurance-claims-performance-project",
+      "liveUrl": null,
+      "gallery": []
+    }
+  ]
+}
