@@ -1,9 +1,9 @@
 {
-  "theme": "grey",
+  "theme": "purple",
   "profile": {
     "name": "Test Ando",
     "role": "Data Analyst",
-    "tagline": "Your tagline goes here — a short sentence about what you do and what drives you.",
+    "tagline": "Turning raw data into actionable insights to drive smarter business decisions.",
     "email": "your.email@example.com",
     "phone": "0400000000",
     "location": "New york, New York",
@@ -15,7 +15,7 @@
     "availability": "Open to opportunities"
   },
   "about": {
-    "bio": "Write a short paragraph about your background, experience, and what makes you a strong data professional.",
+    "bio": "I'm a Senior Data Analyst with over 9 years of experience turning complex data into meaningful business insights. I enjoy solving real world business problems, identifying trends, and presenting findings in a way that's easy to understand. I'm passionate about using data to improve business performance and support better decision making.",
     "focus": "Data Analytics & Business Intelligence",
     "coreStack": "SQL · Power BI · Python - Excel"
   },
@@ -94,6 +94,18 @@
         "Write and optimise complex SQL queries against large-scale Redshift and SQL Server databases to support reporting and ad-hoc analysis.",
         "Automate recurring reporting workflows using Power Automate and Python, reducing manual effort by over 60%."
       ]
+    },
+    {
+      "title": "Senior Data Quality Analyst",
+      "company": "Meridian Financial Services",
+      "location": "",
+      "duration": "Mar 2021 — Dec 2022",
+      "type": "Full-time",
+      "responsibilities": [
+        "Owned the data quality framework across five core business systems, defining standards, monitoring rules, and remediation workflows.",
+        "Built automated data validation pipelines in Python and SQL to detect anomalies, duplicates, and missing records before they reached reporting layers.",
+        "Produced executive-level data quality scorecards in Power BI, providing visibility into health metrics across the organisation."
+      ]
     }
   ],
   "education": [],
@@ -165,6 +177,13 @@
                 "This page provides senior managers and executives with a high-level view of contact centre performance throughout the year, making it easy to assess whether key monthly targets are being achieved. The primary focus is the Connection KPI (target: 1,800 connections per month) and Service Level (target: 75%). Colour coded KPIs provide instant insight, with green indicating targets have been met and red highlighting areas requiring attention. \n- Executive Summary: A single, high-level view of contact centre performance.\n- Instant KPI Monitoring: Colour-coded indicators quickly show whether monthly targets have been met. \n- Better Decision Making: Clear performance insights support operational and strategic decisions. \n- Trend Analysis: Track performance over time to identify trends, seasonal patterns, and potential issues early."
               ],
               "image": "/project-contact-centre-kpi-performance-project-cc-3-slide-2.png"
+            },
+            {
+              "title": "Agent Operations",
+              "description": [
+                "This page is designed for team managers, providing detailed visibility into individual agent performance throughout the year. It tracks key metrics, including whether agents are achieving their monthly target of 100 connections and maintaining a conversion rate above 10%. The dashboard helps managers recognise top performers, identify agents who need support, and deliver targeted coaching using detailed performance metrics. \n\n- Performance Tracking: Quickly identify which agents are meeting or missing their KPIs. \n- Targeted Coaching: Pinpoint areas where individual agents need improvement. \n- Recognition: Easily identify high-performing agents for reward and recognition."
+              ],
+              "image": "/project-contact-centre-kpi-performance-project-cc-3-slide-3.png"
             }
           ]
         }
