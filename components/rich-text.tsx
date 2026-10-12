@@ -27,6 +27,15 @@ function parse(text: string): Block[] {
   return blocks
 }
 
+function renderInline(text: string) {
+  const parts = text.split(/(\*\*[^*]+\*\*)/)
+  return parts.map((part, i) =>
+    part.startsWith("**") && part.endsWith("**")
+      ? <strong key={i} className="font-semibold text-foreground">{part.slice(2, -2)}</strong>
+      : part
+  )
+}
+
 export function RichText({ text, className = "" }: { text: string; className?: string }) {
   if (!text?.trim()) return null
   const blocks = parse(text)
@@ -35,14 +44,14 @@ export function RichText({ text, className = "" }: { text: string; className?: s
     <div className={`space-y-3 text-pretty leading-relaxed text-muted-foreground ${className}`}>
       {blocks.map((block, i) => {
         if (block.type === "paragraph") {
-          return <p key={i}>{block.text}</p>
+          return <p key={i}>{renderInline(block.text)}</p>
         }
         return (
           <ul key={i} className="space-y-1.5">
             {block.items.map((item, j) => (
               <li key={j} className="flex items-start gap-3">
                 <span className="mt-2 size-1.5 shrink-0 rounded-full bg-primary/60" aria-hidden="true" />
-                {item}
+                <span>{renderInline(item)}</span>
               </li>
             ))}
           </ul>
