@@ -309,6 +309,12 @@
               "image": "/project-insurance-claims-performance-project-cc-5-slide-5.jpg"
             }
           ]
+        },
+        {
+          "type": "text",
+          "title": "Outcome",
+          "content": "",
+          "image": "/project-insurance-claims-performance-project-cc-6.png"
         }
       ],
       "outcome": [],
