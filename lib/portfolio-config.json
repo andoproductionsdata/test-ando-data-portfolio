@@ -200,6 +200,12 @@
               "image": "/project-contact-centre-kpi-performance-project-cc-3-slide-5.png"
             }
           ]
+        },
+        {
+          "type": "text",
+          "title": "Outcome",
+          "content": "",
+          "image": "/project-contact-centre-kpi-performance-project-cc-4.png"
         }
       ],
       "outcome": [],
