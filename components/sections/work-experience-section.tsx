@@ -1,4 +1,4 @@
-import { MapPin, Calendar } from "lucide-react"
+import { Calendar } from "lucide-react"
 import { SectionHeading } from "@/components/section-heading"
 import { FadeIn, FadeInStagger, FadeInItem } from "@/components/motion-wrapper"
 import { workExperience } from "@/lib/portfolio-data"
@@ -31,10 +31,6 @@ export function WorkExperienceSection() {
                       <span className="flex items-center gap-1">
                         <Calendar className="size-3" aria-hidden="true" />
                         {job.duration}
-                      </span>
-                      <span className="flex items-center gap-1">
-                        <MapPin className="size-3" aria-hidden="true" />
-                        {job.location}
                       </span>
                     </div>
 
