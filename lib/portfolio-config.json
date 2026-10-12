@@ -15,7 +15,7 @@
     "availability": "Open to opportunities"
   },
   "about": {
-    "bio": "I'm a Senior Data Analyst with over 9 years of experience turning complex data into meaningful business insights. I enjoy solving real world business problems, identifying trends, and presenting findings in a way that's easy to understand. I'm passionate about using data to improve business performance and support better decision making.",
+    "bio": "This project simulates a real-world insurance claims environment for Insurix, a fictional insurance company facing concerns over claim processing delays.\n\nThe objective was to build an interactive KPI dashboard using SQL and Power BI to monitor open claims, processing times, and team performance. The dashboard helps stakeholders identify bottlenecks, track key metrics, and make data driven decisions to improve operational efficiency.",
     "focus": "Data Analytics & Business Intelligence",
     "coreStack": "SQL · Power BI · Python - Excel"
   },
